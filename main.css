@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+html, body {
+    height: calc(100% - 20px);
+}
+body {
+    background-color: #EEE; 
+    margin: 20px;
+    padding: 0; 
+    font-family: monospace; 
+    font-size: 16px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+textarea {
+    display: block;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+    outline: none;
+    border: 1px solid silver;
+    border: 0;
+    background-color: white;
+    resize: none;
+    overflow: auto;
+    font-family: monospace;
+    font-size: 16px;
+    color: #444;
+}
+
+#sms {
+    height: 100px;
+}
+
+#history {
+    height: calc(100% - 120px);
+}
+
+button {
+    height: 40px;
+    width: 40px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    color: #444;
+    border: 1px solid #444;
+}
+p {
+    color: silver;
+    text-align: right;
+}
+span {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version (Chrome / Opera) */
+}
+.goleft {
+    padding-right: 20px;
+    cursor: pointer;
+}
+.goright {
+    padding-left: 20px;
+    cursor: pointer;
+}
+/* desktop screens */
+@media only screen and (min-width: 800px) {
+    ul {
+        max-width: 400px;
+    }
+  }
